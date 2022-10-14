@@ -1,7 +1,10 @@
-nav {
+/* nav {
     color: orange;
     text-decoration: none;
-}
+} */
+
+/*Could not find a way to use nav to change color of link text, so
+I commented it out and added a:link and a:visited*/
 a:link {
     color: orange;
     text-decoration: none
@@ -31,4 +34,7 @@ section {
 }
 .d-inline {
     display: inline;
+}
+nav ul {
+    list-style: none;
 }
