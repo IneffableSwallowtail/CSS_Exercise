@@ -4,13 +4,10 @@
 } */
 
 /*Could not find a way to use nav to change color of link text, so
-I commented it out and added a:link and a:visited*/
-a:link {
+I commented it out and added a:link and a:visited
+I can fix this.*/
+.nav-link {
     color: orange;
-    text-decoration: none
-}
-a:visited {
-    color:orange;
     text-decoration: none
 }
 main {
@@ -41,4 +38,11 @@ nav ul {
 body {
     background-color: #222222;
     color: #EEEEEE;
+}
+#avatar {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
